@@ -1,0 +1,76 @@
+/* .element {
+  shape-outside: ellipse(100px 200px at 50% 50%);
+  shape-outside: circle(50%);
+  width: 300px;
+  height: 500px;
+  float: left;
+  left: -150px;
+  opacity: 0;
+} */
+
+.box {
+  position: relative;
+  font-size: 24px;
+
+  width: 0px;
+  height: 0px;
+
+  transition: display 0.3s;
+  transition: all 0.6s ease-in-out;
+}
+.master {
+  top: 0px;
+  left: -30px;
+  width: 300px;
+  height: 600px;
+  position: absolute;
+  overflow: hidden;
+}
+
+.pNone{
+  top: 0px;
+  left: -30px;
+  /* display: none; */
+}
+
+.p1{
+  top: 30px;
+  left: 40px;
+}
+.p2{
+  top: 60px;
+  left: 80px;
+}
+.p3{
+  top: 90px;
+  left: 120px;
+}
+.p4{
+  top: 120px;
+  left: 160px;
+}
+.p5{
+  top: 150px;
+  left: 200px;
+}
+.p6{
+  top: 180px;
+  left: 160px;
+}
+.p7{
+  top: 210px;
+  left: 120px;
+}
+.p8{
+  top: 240px;
+  left: 80px;
+}
+.p9{
+  top: 270px;
+  left: 40px;
+}
+
+.p10, .p11, .p12, .p13, .p14, .p15, .p16, .p17, .p18, .p19, .p20{
+  top: 400px;
+  left: -40px;
+}
