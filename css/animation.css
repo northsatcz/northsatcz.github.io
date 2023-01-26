@@ -9,19 +9,26 @@
 } */
 
 .box {
-  position: relative;
+  position: absolute;
   font-size: 24px;
 
   width: 0px;
   height: 0px;
 
-  transition: display 0.3s;
+
+  width: 100px;
+  height: 20px;
+
+  padding: 10px 10px 16px 16px;
+  border-radius: 18px;
+  /* text-align: center; */
+
   transition: all 0.6s ease-in-out;
 }
 .master {
   top: 0px;
-  left: -30px;
-  width: 300px;
+  left: 0px;
+  width: 500px;
   height: 600px;
   position: absolute;
   overflow: hidden;
@@ -31,43 +38,47 @@
   top: 0px;
   left: -30px;
   /* display: none; */
+  margin-bottom: -200px;
 }
 
 .p1{
-  top: 30px;
-  left: 40px;
+  top: 10px;
+  left: 65px;
 }
 .p2{
-  top: 60px;
-  left: 80px;
+  top: 30px;
+  left: 140px;
 }
 .p3{
   top: 90px;
-  left: 120px;
+  left: 220px;
 }
 .p4{
-  top: 120px;
-  left: 160px;
+  top: 140px;
+  left: 260px;
 }
 .p5{
-  top: 150px;
-  left: 200px;
+  top: 215px;
+  left: 280px;
+  
+  box-shadow: 10px 13px 29px 4px rgba(0,0,0,0.26);
+  /* border: 1px solid black */
 }
 .p6{
-  top: 180px;
-  left: 160px;
+  top: 290px;
+  left: 260px;
 }
 .p7{
-  top: 210px;
-  left: 120px;
+  top: 365px;
+  left: 220px;
 }
 .p8{
-  top: 240px;
-  left: 80px;
+  top: 395px;
+  left: 140px;
 }
 .p9{
-  top: 270px;
-  left: 40px;
+  top: 415px;
+  left: 65px;
 }
 
 .p10, .p11, .p12, .p13, .p14, .p15, .p16, .p17, .p18, .p19, .p20{

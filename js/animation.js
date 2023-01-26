@@ -291,4 +291,6 @@ function allTimers(){
 
 }
 
-allTimers();
+// allTimers();
+
+byMe1();
