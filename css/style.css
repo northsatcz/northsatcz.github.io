@@ -30,6 +30,8 @@ a {
   width: 100%;
 
   font-weight: 300;
+
+  z-index: 1;
 }
 
 .logo{
@@ -127,6 +129,9 @@ a {
 
 
 /* section 2 */
+.section2-bg{
+  background-image: url(../img/section2-bg.png);
+}
 .main3blocks{
   background-color: #ebebeb;
   border-radius: 12px;
@@ -150,6 +155,10 @@ a {
 }
 
 .main3blocksImg{
+  width: 100%;
+}
+
+.main3blockUpImg{
   width: 100%;
 }
 
@@ -194,12 +203,24 @@ a {
   background-image: url(../img/spa/spa-bg.png);
 }
 
+.opacity-0{
+  opacity: 0;
+}
+
 /* media */
 @media only screen and (max-width: 1200px){
   .header-xl {
       font-size: 68px;
   }
 }
+
+
+@media only screen and (max-width: 1000px){
+  .header{
+    background-color: #111;
+    padding: 10px;
+  }
+}  
 
 @media only screen and (max-width: 480px){
   .header-xl {
@@ -214,15 +235,10 @@ a {
   .main3blocks{
     margin: 25px 0px;
   }
-  .footer-logo{
-    width: 150px;
-    margin: 0px auto;
-  }
   .footer-instagram{
     margin: 0px auto;
   }
-  .header{
-    background-color: #111;
-    padding: 10px;
+  .footer-logo-ex{
+    text-align: center;
   }
 }
