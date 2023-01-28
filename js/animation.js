@@ -273,7 +273,7 @@ function byMe9(){
   box17.classList.add('p8');
   box17.classList.remove('p9');
   box18.classList.add('p9');
-  box18.classList.remove('p19');
+  box18.classList.remove('p18');
   
   console.log('byme2')
 }
@@ -291,6 +291,4 @@ function allTimers(){
 
 }
 
-// allTimers();
-
-byMe1();
+allTimers();

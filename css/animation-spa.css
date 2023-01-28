@@ -37,46 +37,26 @@
 }
 
 .p1{
-  top: 10px;
-  left: 5px;
+  top: 40px;
+  left: 100px;
 }
 .p2{
-  top: 50px;
-  left: 110px;
-}
-.p3{
-  top: 90px;
-  left: 160px;
-}
-.p4{
-  top: 150px;
-  left: 200px;
-}
-.p5{
-  top: 215px;
-  left: 220px;
-  
-  box-shadow: 10px 13px 29px 4px rgba(0,0,0,0.26);
-  /* border: 1px solid black */
-}
-.p6{
-  top: 290px;
-  left: 200px;
-}
-.p7{
-  top: 340px;
-  left: 160px;
-}
-.p8{
-  top: 380px;
-  left: 110px;
-}
-.p9{
-  top: 415px;
-  left: 5px;
+  top: 120px;
+  left: 180px;
 }
 
-.p10, .p11, .p12, .p13, .p14, .p15, .p16, .p17, .p18, .p19, .p20{
-  top: 400px;
-  left: -400px;
+.p3{
+  top: 215px;
+  left: 220px;
+  box-shadow: 10px 13px 29px 4px rgba(0,0,0,0.26);
+}
+
+.p4{
+  top: 310px;
+  left: 200px;
+}
+
+.p5{
+  top: 390px;
+  left: 120px;
 }
