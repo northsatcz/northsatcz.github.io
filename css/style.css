@@ -205,8 +205,14 @@ a {
   color: white;
 }
 
+.spaRow{
+  padding: 20px 0px 20px ;
+  border-bottom: 1px solid rgb(122, 122, 122);
+}
+
 .spa-bg{
   background-image: url(../img/spa/spa-bg.png);
+  background-attachment: fixed;
 }
 
 .opacity-0{

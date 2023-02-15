@@ -17,7 +17,7 @@
   /* text-align: center; */
   color: #747474;
 
-  transition: all 0.6s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 .master {
   top: 0px;
@@ -36,6 +36,13 @@
   margin-bottom: -200px;
 }
 
+.box:hover{
+  box-shadow: 10px 13px 29px 4px rgba(0,0,0,0.26);
+  font-size: 19px;
+  color: black;
+  font-weight: 500;
+}
+
 .p1{
   top: 40px;
   left: 100px;
@@ -48,7 +55,6 @@
 .p3{
   top: 215px;
   left: 220px;
-  box-shadow: 10px 13px 29px 4px rgba(0,0,0,0.26);
 }
 
 .p4{
