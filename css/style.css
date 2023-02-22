@@ -240,17 +240,26 @@ a {
   color: #474747;
 }
 
+/* collage */
+.collageCol{
+  padding: 5px;
+}
+.collage{
+  margin-top: 10px;
+}
+
 /* service es */
 .serviceBorderBlock{
   padding-top: 20px;
-  border-left: 1px solid black
+  border-left: 2px solid #4c4949;
 }
 
 .serviceBorderBlockTwo{
-  border-left: 1px solid black
+  border-left: 2px solid #4c4949;
 }
 .mainHeadTextService{
   font-size: 23px;
+  color: #4c4949;
 }
 .headTextService{
   font-size: 21px;
