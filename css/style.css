@@ -142,7 +142,6 @@ a {
   background-color: #ebebeb;
   border-radius: 12px;
   padding: 20px 30px;
-  /* height: 100%; */
 
   display: flex;
   flex-direction: column;
@@ -158,6 +157,13 @@ a {
   flex-direction: column;
   justify-content: space-between;
   text-align: left;
+  min-height: 283px;
+}
+
+.main3blocksTextLi{
+  font-size: 19px;
+  padding-left: 20px;
+  /* font-weight: 500; */
 }
 
 .main3blocksImg{
@@ -182,6 +188,10 @@ a {
 .borderBlocks{
   margin: 0px 20px;
   padding: 0px 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 
 
   font-weight: 200;
@@ -217,6 +227,37 @@ a {
 
 .opacity-0{
   opacity: 0;
+}
+
+/* spa inner pages */
+.spainnerhead{
+  font-weight: 700;
+  font-size: 21px;
+  color: #474747;
+}
+.spainnerprice{
+  font-weight: 600;
+  color: #474747;
+}
+
+/* service es */
+.serviceBorderBlock{
+  padding-top: 20px;
+  border-left: 1px solid black
+}
+
+.serviceBorderBlockTwo{
+  border-left: 1px solid black
+}
+.mainHeadTextService{
+  font-size: 23px;
+}
+.headTextService{
+  font-size: 21px;
+}
+.priceService{
+  font-size: 21px;
+  color: #6e6e6e;
 }
 
 /* media */

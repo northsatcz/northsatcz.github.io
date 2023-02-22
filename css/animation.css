@@ -56,10 +56,10 @@
   top: 215px;
   left: 220px;
   
-  box-shadow: 10px 13px 29px 4px rgba(0,0,0,0.26);
+  /* box-shadow: 10px 13px 29px 4px rgba(0,0,0,0.26);
   font-size: 19px;
   font-weight: 500;
-  color: black;
+  color: black; */
   /* border: 1px solid black */
 }
 .p6{
