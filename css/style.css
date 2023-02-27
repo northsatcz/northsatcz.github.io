@@ -269,6 +269,9 @@ a {
   color: #6e6e6e;
 }
 
+
+
+
 /* media */
 @media only screen and (max-width: 1200px){
   .header-xl {
@@ -281,6 +284,10 @@ a {
   .header{
     background-color: #111;
     padding: 10px;
+  }
+  /* hide mobile */
+  .mobileNone{
+    display: none;
   }
 }  
 
