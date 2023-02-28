@@ -43,7 +43,7 @@ $('#card-ccv').on('focus', function(){
 
 
 /*--------------------
-CodePen Tile Preview
+Tile Preview
 --------------------*/
 setTimeout(function(){
   $('#card-ccv').focus().delay(1000).queue(function(){
